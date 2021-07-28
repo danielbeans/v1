@@ -321,9 +321,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 992px) {
-  #hero {
-    text-align: center;
-  }
   #hero h1 {
     font-size: 32px;
     line-height: 36px;
@@ -1205,4 +1202,16 @@ section {
   height: 300px;
   object-fit: cover;
   object-position: 35% 50%;
+}
+
+@media (max-width: 768px) {
+  #hero {
+  text-align: center;
+  }
+}
+
+@media (screen-spanning: single-fold-horizontal) {
+  #navbar {
+    display: none !important;
+  }
 }
