@@ -1283,19 +1283,19 @@ section {
   color: white;
 }
 
-.dark-mode #dark-mode-btn {
+.dark-mode button > .dark-mode-btn {
   background-color: #07ffff;
   color: #0e0e0e;
 }
 
-.dark-mode #dark-mode-btn:hover {
+.dark-mode button > .dark-mode-btn:hover {
   background-color: #63f7f7;
 }
 
 /*--------------------------------------------------------------
 # Dark mode button
 --------------------------------------------------------------*/
-#dark-mode-btn {
+button > .dark-mode-btn {
   position: fixed;
   right: 15px;
   bottom: 15px;
@@ -1308,11 +1308,11 @@ section {
   transition: all 0.4s;
 }
 
-#dark-mode-btn:hover {
+button > .dark-mode-btn:hover {
   background: #fbcd43;
 }
 
-#dark-mode-btn.shift-up {
+button > .dark-mode-btn.shift-up {
   transform: translateY(-50px);
 }
 

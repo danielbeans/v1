@@ -285,7 +285,7 @@
   /**
    * Dark mode button shift
    */
-  let darkmodebtn = select("#dark-mode-btn");
+  let darkmodebtn = select(".dark-mode-btn");
   if (darkmodebtn) {
     const toggleDarkmode = () => {
       if (window.scrollY > 100) {
