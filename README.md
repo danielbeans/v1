@@ -1,5 +1,5 @@
-# Portfolio
+# Site Version 1
 
-Hello, welcome to my Portfolio. It's under construction so feel free to come back later when I've built it out more.
+Hello, welcome to my the first version of my website.
 
-Visit my [website](https://www.danielfwilliams.com).
+https://danielbeans.github.io/v1/
